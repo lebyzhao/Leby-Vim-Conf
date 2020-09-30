@@ -1,4 +1,4 @@
 # Leby-Vim-Conf
-my vim configurations
------------------------------------------------------------
-now, updated to using CCLS for c++ projects.
+
+## my vim configurations
+now, updated to using clangd for c++ projects.
