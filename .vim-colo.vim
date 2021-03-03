@@ -1,7 +1,8 @@
 set t_Co=256
 set background=dark
+
 if (has("termguicolors") && !&diff)
-    "set termguicolors
+"  set termguicolors
 endif
  
 "let g:airline_theme='onedark'
@@ -39,7 +40,8 @@ colo molokai
 "hi link ClassDecl Type
 "hi link EnumDecl Type
 " 
-hi Comment guifg=#767676 ctermfg=105
+hi Comment guifg=#767676 ctermfg=242
+
 "hi Comment guifg=#767676 ctermfg=105 cterm=italic
 "hi Comment cterm=italic guifg=#767676 ctermfg=243 
 "hi Comment guifg=#767676 ctermfg=243 
@@ -54,13 +56,11 @@ hi Include cterm=italic
 hi Type cterm=italic 
 hi Keyword cterm=italic 
 hi Typedef cterm=italic 
-hi Function cterm=italic
-
-"" for control
 hi Structure cterm=italic 
-":hi Conditional cterm=italic 
-":hi Macro cterm=italic 
 hi Typedef cterm=italic 
+hi Function cterm=italic
+hi Conditional cterm=italic 
+":hi Macro cterm=italic 
 ":hi Label cterm=italic 
 ": 
 hi Variable ctermfg=109 cterm=bold
